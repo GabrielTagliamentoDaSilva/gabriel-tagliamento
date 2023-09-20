@@ -1,0 +1,127 @@
+body{
+    margin: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+}
+
+.container{
+    border: 1px;
+    height:200px;
+    display: flex;
+    background-color:#F4EEE0;;
+
+}
+.logo{
+    position: relative;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    height:200px;
+
+}
+.navegação{
+    background-color: #4F4557;
+    display:grid;
+    justify-content: center;
+    width:100%;
+}
+.painel{
+    flex-direction: row;
+}
+.menu{
+    background-color: #F4EEE0;
+    border-radius: 20px 20px;
+    border: 1px solid;
+    margin: 10px;
+    margin-right: auto;
+    margin-right: auto;
+    float: left;
+    list-style: none;
+    width:300px;
+    text-align: center;
+}
+.principal{
+    text-align: center;
+}
+.links{
+    text-decoration: none;
+    color:#6D5D6E;
+}
+.links:hover{
+    color:#393646;
+}
+.menu:hover{
+    background-color: #4F4557;
+}
+.input{
+    background-color: #6D5D6E;
+    border-radius: 25px;
+    font-size:30px;
+    height: 80px;
+    width:400px;
+    color: #F4EEE0;
+}
+
+.principal{
+    border-radius: 50px 50px;
+    background-color: #4F4557;
+    margin: auto;
+    padding: 10px 10px;
+    width:50%;
+}
+.text{
+    font-size:20px;
+    width:400px;
+    background-color:#F4EEE0;
+}
+.enviar{
+    border-radius: 50px 50px;
+    font-size: 20px;
+    height:90px;
+    width:190px;
+    background-color: #F4EEE0;
+}
+.textoformação{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    color: #F4EEE0;
+}
+.fotoperfil{
+    width:50%;
+    border-radius: 60px 60px;
+    border: 10px solid #F4EEE0;
+}
+.img{
+    border-radius: 50px 50px;
+    border: 10px solid #F4EEE0;
+}
+
+.sobremim{  
+ color:#F4EEE0;
+ display:flex;
+ flex-direction: column;
+ margin: auto;
+}
+.portfólio{
+    color: #F4EEE0;
+    display:block;
+    margin-right: auto;
+    margin-right: auto ;
+}
+.portfólio li{
+    border-radius: 30px 30px;
+    color: #F4EEE0;
+    justify-content: center;
+    text-decoration: none;
+    margin: 1px;
+    display:block;
+    width:90%;
+}
+
+.portfólio li img{
+    width:100%;
+    border-radius:50px 50px;
+    border: 10px solid #F4EEE0;
+}
