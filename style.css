@@ -1,0 +1,226 @@
+/*padronizando body e texto colocando a font de todos os textos da pagina 
+deixando a margin no zero  colocando a cor de fundo padrão e colocando cor do texto padrão*/
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: auto 0;
+    color:#F4EEE0;
+    background-color: #6D5D6E;
+
+}
+
+/*Deixando o header em display flex com tamanho altura fixo de 300px
+uma largura de 100% da tela um conteúdo justificado no centro  um background padronizado e a posição do contéudo fixo na tela*/
+.container{
+    display:flex;
+    margin-bottom: auto;
+    height:30%;
+    width:100%;
+    justify-content: center;
+    background-color:#F4EEE0;
+    position:fixed;
+
+}
+.logo{
+    display:flex;
+    margin: auto;
+    height: 400px;
+}
+/*Colocando o setor de navegação dos menus com a posição fixada e colocando um background color padronizado e colocando um tamanho de 100% e uma margin de 15% no topo para o menu descer abaixo do logo*/
+.navegação{
+    position:fixed;
+    background-color: #4F4557;
+    width:100%;
+    margin-top:13%;
+}
+/*deixando a ul em display flex e deixando  o flex direction row ou seja deixando a direção em linhas usando o parametro row row* e colocando uma margin na ul de 10px*/
+.painel{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+/*Deixando os menus para tela cheia padronizados com display flex uma cor padrão, arredondando as bordas deixando com uma borda de 1px solid colocando um padding no conteúdo do menu de  10 px margin deixando em 10 px margin direita e margin esquerda estão automaticas e o conteúdo está justificado no centro  as listas dos conteúdos estão no estilo vazio none e a largura dos menus é de 300 px*/
+.menu{
+    display: flex;
+    background-color: #F4EEE0;
+    border-radius: 20px 20px;
+    border: 1px solid;
+    padding: 10px;
+    margin:10px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    list-style: none;
+    width:250px;
+    font-size:28px;
+}
+ /*tirando decoração das listas do link e colocando uma cor no texto*/
+.links{
+    text-decoration: none;
+    color:#6D5D6E;
+}
+/* colocando efeito nos menus quando passa com mouse sobre mudando cor e background*/
+.links:hover{
+    color:#393646;
+}
+.menu:hover{
+    background-color: #4F4557;
+}
+
+
+
+
+
+
+
+/*Mudando contéudo do index*/
+.destaquePrincipal{
+    margin-top:300px;
+}
+
+/*alterando as propriedades dos paragrafos colocando display flex
+com flex direction em linha justificando contéudo no centro padding 1 px
+ font-size de 30px width ocupando 90% da tela margin auto margin-right e left para centralizar contéudo*/
+.seçãocontéudo p{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 1px;
+    font-size:30px;
+    width:90%;
+    margin: auto;
+    margin-right:auto;
+    margin-left:auto;
+}
+/*mudando parametros do h1 dentro da class seção contéudo*/
+.seçãocontéudo h1{
+    font-size:40px;
+    background-color:#393646;
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+/*mudando parametros da tabela dentro da class seção contéudo*/
+.seçãocontéudo table{
+    margin: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*mudando parametros da borda da img*/
+.seçãocontéudo img{
+    border-radius: 25px 25px;
+}
+
+
+/*mudando estilo da página contato*/
+.seçãoContato{
+    flex-direction:flex;
+    justify-content: center;
+
+}
+/*parametros de estilização da tabela com background color padrão border radius para deixar a borda arredondada largura de 50% display flex e flex direction do tipo linha justificado no centro*/
+.tabela{
+    background-color: #4F4557;
+    border-radius: 25px 25px;
+    width: 50%;
+    border: 1px solid;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+/*Mudando a altura do label e colocando tamanho de fonte de 30px*/
+.label{
+    height:60px;
+    font-size:30px;
+}
+
+/*css do input do nome e email mudando background color o texto alinhado border radius de 25px por 25px altura de 30px e largura de 200px*/
+.input{
+    background-color: #F4EEE0;
+    text-align: center;
+    border-radius: 25px 25px;
+    height:30px;
+    width: 200px;
+}
+/*css do input do text area deixando backgroud da area do texto com uma cor da palleta padronizada e arredondando as bordas para 10px por 10px e deixando texto justificado*/
+.input1{
+    background-color: #F4EEE0;
+    border-radius: 10px 10px;
+    text-align: justify;
+
+
+}
+/*css do botão colocando uma borda de 15px por 15px deixando texto alinhado deixando centralizado com margin a direita e esquerda dando uma margin de 10px e deixando uma largua de 200px
+com cor de letras padrão e background com uma cor da paleta*/
+.button{
+  border-radius: 15px 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 10px;
+  height:50px;
+  width:200px;
+  color:#F4EEE0;
+  background-color: #4F4557;
+
+}
+/*formação*/
+.pargrafosdaformação strong{
+    color: #393646;
+}
+
+
+
+/*Css da seção do portfólio*/
+
+.seçãoProjetos{
+    border-radius: 25px 25px;
+    font-size:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Estilização da td da página do portfólio*/
+.seçãoProjetos td{
+    text-align: center;
+    height:160px;
+    width:300px;
+    background-color: #393646;
+    border:3px solid #393646;
+    border-radius: 25px 25px;
+    padding: 10px 10px;
+}
+
+/*Estilização da ancora da seção projetos*/
+.seçãoProjetos a{
+    border-radius: 25px 25px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #F4EEE0;
+
+}
+
+/*Estilização td quando o mouse passa por cima muda o background  o tamanho da borda o pixel e padding*/
+.seçãoProjetos td:hover{
+    background-color: #F4EEE0;
+    border:3px solid #393646;
+    border-radius: 10px 10px;
+    margin:10px;
+    padding:10px 10px;
+
+}
+
+
+/*Estilização ancora quando mouse passar por cima*/
+.seçãoProjetos a:hover{
+    margin: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #4F4557
+
+
+}
