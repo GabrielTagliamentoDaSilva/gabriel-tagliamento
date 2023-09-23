@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Linkei meu css com as páginas html colocquei uns cnd de uma fonte para ser utilizada no site peguei elas do google fonts e link diretamente
+      no documento html-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--Nosso título da página-->
+    <title>contato</title>
+</head>
+<body>
+    <!-- Criei um header com uma class container para criar um local onde vai ficar o logo-->
+    <header class="container">
+        <img src="img/Gabriel tagliamento.png" class="logo">
+    </header>
+     <!-- setor onde criei um menu padronizado para todas as páginas da mesma forma que fiz com o logo-->
+    <nav class="navegação">
+        <ul class="painel">
+            <li class="menu"><a href="index.html" class="links">inicio</a></li>
+            <li class="menu"><a href="contato.html" class="links">contato</a></li>
+            <li class="menu"><a href="formação.html" class="links">formação</a></li>
+            <li class="menu"><a href="portifólio.html" class="links">portfólio</a></li>
+            <li class="menu"><a href="sobre_mim.html" class="links">sobre mim</a></li>
+        </ul>
+    </nav>
+    <br>
+
+    <!-- div com setor do formulario para contato-->
+    <div class="destaquePrincipal">
+        <section class="seçãocontéudo">
+            <br><br><br>
+            <h1>contato</h1>
+            <p>Entre em contato e faça um orçamento</p>
+            <br>
+            <!-- formulario de contato com metodo post-->
+            <form action="" method="post">
+                <table class="tabela">
+                    <tr class=>
+                        <th class="label"><label for="name">Digite seu nome:</label></th>
+                        <td><input type="text" class="input"></td>
+                    </tr>
+                    <tr>
+                        <th class="label"><label for="name">Digite seu email:</label></th>
+                        <td><input type="email" name="email" class="input"></td>
+                    </tr>
+                    <tr>
+                        <th class="label"><label for="name">deixe uma mensagem:</label></th>
+                        <td><textarea name="contato" id="" cols="25" rows="9" class="input1">Digite o que deseja</textarea></td>
+                    </tr>
+                       <!-- area do botão de enviar proposta-->
+                    <tr>
+                        <td></td>
+                        <td ><button class="button">Enviar proposta</button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>
